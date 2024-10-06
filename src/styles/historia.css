@@ -1,0 +1,102 @@
+.container_historia {
+    background-color: whitesmoke;
+    margin-top: 1rem;
+}
+
+.container_item_historia {
+    padding: 1rem;
+}
+
+.container_item_historia p {
+    text-align: justify;
+    padding-top: 0.8rem;
+}
+
+.con-estrellas-arriba::after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    height: 29px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(/public/images/historia/estrellas.png);
+    background-position: 0 50%;
+    background-repeat: repeat-x;
+    background-size: inherit;
+    margin-bottom: 1rem;
+
+}
+
+.img-fluid-historia {
+    width: 95vh;
+    height: 25vh;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* HISTORIA */
+
+    .container_historia {
+        width: 80vw;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .container_item_historia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: start;
+    }
+
+    .container_item_historia_p {
+        width: 52%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .container_row_reverse_historia {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    .img-fluid-historia {
+        width: 30vh;
+        height: 20vh;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* HISTORIA */
+
+    .container_historia {
+        width: 70vw;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .container_historia_gral {
+        width: 70vw;
+    }
+
+    .container_row_reverse_historia {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .container_item_historia_p {
+        width: 53%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+}

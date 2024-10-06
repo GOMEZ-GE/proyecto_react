@@ -1,0 +1,43 @@
+/* NOTICIAS */
+
+.container_noticias {
+    height: 62vh;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    
+}
+
+.carrusel_container img {
+    height: 250px;
+
+}
+
+.tarjeta_noticias {
+    background-color: #070580;
+    height: 65px;
+    color: white;
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* NOTICIAS */
+
+    main {
+        background-color: whitesmoke;
+    }
+
+    .container_noticias {
+        width: 80vh;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .carrusel_container img {
+        height: 300px;
+
+    }
+
+}

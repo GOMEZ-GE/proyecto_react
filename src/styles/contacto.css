@@ -1,0 +1,80 @@
+/* CONTACTO */
+
+.container_contacto {
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+.container_info_consultas_1{
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.container_consultas {
+    max-width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* CONTACTO */
+
+    .container_contacto {
+        width: 80vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container_info_consultas {
+        width: 70%;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* CONTACTO */
+
+    .container_contacto {
+        width: 50vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container_info_consultas {
+        width: 70%;
+    }
+
+    .titulo_contacto {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container_section_contacto{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .container_info_consultas{
+        width: 45%;
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .container_consultas{
+        width: 50%;
+        margin-top: 0;
+    }
+
+}

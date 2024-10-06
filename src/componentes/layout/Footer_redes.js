@@ -1,7 +1,7 @@
 const Footer_redes = (props) => {
     return (
-        <div>
-            <div>SEGUINOS</div>
+        <div className="container_footer_redes">
+            <div className="redes_titulo titulo_contacto">SEGUINOS</div>
             <ul>
                 <li><i class="lni lni-youtube"></i></li>
                 <li><i class="lni lni-instagram-fill"></i></li>

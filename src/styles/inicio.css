@@ -1,0 +1,105 @@
+/* INICIO */
+
+.container_baner_inicio {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background-image: url('/public/images/inicio/baner_4.jfif');
+    width: 100vw;
+    height: 65vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.star_inicio {
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.star_inicio i {
+    color: yellow;
+    font-size: 2.5rem;
+    filter: drop-shadow(1px 1px 20px yellow);
+    padding: 1.5rem;
+
+}
+
+.titulo_inicio {
+    color: yellow;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 3.5rem;
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: initial;    
+}
+
+.lorem_inicio {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: justify;
+
+}
+
+.container_btn_inicio {
+    padding: 1rem;
+    text-align: initial;
+}
+
+.btn_inicio {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* INICIO */
+
+    .container_baner_inicio {
+        width: 100vw;
+        height: 50vh;
+    }
+
+.container_inicio_presentacion{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+    .lorem_inicio {
+        font-size: 0.8rem;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* INICIO */
+
+    .titulo_inicio{
+        font-size: 5rem;
+    }
+
+    .lorem_inicio {
+        font-size: 1rem;
+
+    }
+
+    .container_inicio_presentacion {
+        margin-left: 200px;
+        margin-top: 3rem;
+    }
+
+
+}

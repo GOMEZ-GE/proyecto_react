@@ -1,6 +1,6 @@
 const Footer_copyright = (props) => {
     return (
-        <div>
+        <div className="copyright">
             <p>© 2024 Boca Juniors. Todos los derechos reservados.</p>
         </div>
     );

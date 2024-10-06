@@ -10,13 +10,25 @@ import ContactoPages from './pages/contactoPages';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import './styles/header_nav.css';
+import './styles/footer.css';
+import './styles/inicio.css';
+import './styles/noticias.css';
+import './styles/historia.css';
+import './styles/plantel.css';
+import './styles/contacto.css';
+
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
 
-        <Header></Header>
+        <header>
+          <Header></Header>
+        </header>
 
+        <main>
         <Routes>
           <Route path="/" element={<InicioPages />} />
           <Route path="/noticias" element={<NoticiasPages />} />
@@ -24,10 +36,13 @@ function App() {
           <Route path="/plantel" element={<JugadoresPages />} />
           <Route path="/contacto" element={<ContactoPages />} />
         </Routes>
-
+        </main>
+        
       </BrowserRouter>
 
+      <footer>
       <Footer></Footer>
+      </footer>
 
     </div>
   );

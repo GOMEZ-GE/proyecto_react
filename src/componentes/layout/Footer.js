@@ -5,14 +5,11 @@ import Footer_copyright from "./Footer_copyright";
 
 const Footer = (props) => {
     return (
-        <div>
-
-            <div><strong>FOOTER</strong></div>
+        <div className="container_footer">
             <Footer_contacto></Footer_contacto>
             <Footer_asociados></Footer_asociados>
             <Footer_redes></Footer_redes>
             <Footer_copyright></Footer_copyright>
-
         </div>
     );
 }

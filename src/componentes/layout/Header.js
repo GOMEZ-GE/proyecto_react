@@ -3,17 +3,18 @@ import Nav from "./Nav";
 const Header = (props) => {
     return (
 
-        <div>
-
-            <div><strong>HEADER</strong></div>
-
-            <div>
-                <img src="./images/logo/CA Boca Juniors.svg" width={100} alt="Boca Juniors Logo" />
-            </div>
+        <header>
+            
+            <div className="container_header">
+                <div className="container_header_img">
+                    <img src="./images/logo/CA Boca Juniors.svg" alt="Boca Juniors Logo" />
+                </div>
 
                 <Nav></Nav>
 
-        </div>
+            </div>
+
+        </header>
 
     );
 }

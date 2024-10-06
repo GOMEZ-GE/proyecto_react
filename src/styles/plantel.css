@@ -1,0 +1,83 @@
+/* JUGADORES */
+
+.container_jugadores {
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+.container_plantel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.container_img_plantel {
+    justify-items: center;
+    margin: auto;
+    padding: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.8rem;
+
+}
+
+.container_img_plantel img {
+    width: 150px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* JUGADORES */
+
+    .container_jugadores {
+        width: 80vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container_plantel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .container_img_plantel {
+        justify-items: center;
+        margin: auto;
+        padding: 0.5rem;
+        border: 0.2rem solid rgba(0, 0, 0, 0.3);
+        box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+        margin-bottom: 0.8rem;
+
+    }
+
+    .container_img_plantel img {
+        width: 150px;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    /* JUGADORES */
+
+    .container_jugadores {
+        width: 80vw;
+        padding: 1rem;
+    }
+
+    .container_img_plantel img {
+        width: 250px;
+        transform: scale(1);
+    }
+
+    .container_img_plantel img:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+}

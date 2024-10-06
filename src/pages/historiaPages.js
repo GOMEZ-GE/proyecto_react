@@ -1,20 +1,20 @@
 const HistoriaPages = (props) => {
     return (
 
-        <div>
-            <div>
-                <h2>Historia</h2>
+        <div className="container_historia">
+            <div className="container p-4 text-primary">
+                <h2 className="fw-bold">Historia</h2>
             </div>
 
-            <div>
-                <div >
-                    <div >
+            <div className="container_historia_gral">
+                <div className="container_item_historia">
+                    <div className="container">
                         <h4>Fundación</h4>
                     </div>
-                    <div>
-                        <img src="./images/historia/fundacion_1905.jpg" width={100} alt="Fundadores de Boca Juniors" />
+                    <div className="container_item_historia_img">
+                        <img src="./images/historia/fundacion_1905.jpg" className="img-fluid img-fluid-historia" alt="Fundadores de Boca Juniors" />
                     </div>
-                    <div>
+                    <div class="container_item_historia_p">
                         <p>Boca Juniors fue fundado en Buenos Aires el 3 de abril de 1905, en una década fundacional en
                             la
                             que se crearon no menos de 300 clubes de fútbol.Para entonces hacía casi cuarenta años que
@@ -31,17 +31,17 @@ const HistoriaPages = (props) => {
 
                 </div>
 
-                <div></div>
+                <div className="con-estrellas-arriba"></div>
 
-                <div >
-                    <div >
+                <div class="container_item_historia">
+                    <div class="container">
                         <h4>Elección de la camiseta</h4>
                     </div>
-                    <div >
-                        <div >
-                            <img src="./images/historia/colores_boca.webp" width={100} alt="Fundadores de Boca Juniors" />
+                    <div class="container_row_reverse_historia">
+                        <div class="container_item_historia_img">
+                            <img src="./images/historia/colores_boca.webp" className="img-fluid img-fluid-historia" alt="Fundadores de Boca Juniors" />
                         </div>
-                        <div>
+                        <div class="container_item_historia_p">
                             <p>La elección de los colores definitivos del equipo fue dejada al azar. Juan Rafael
                                 Brichetto,
                                 presidente del club el año anterior (lo sería nuevamente en 1910-13), propuso adoptar
@@ -63,16 +63,16 @@ const HistoriaPages = (props) => {
                     </div>
                 </div>
 
-                <div ></div>
+                <div class="con-estrellas-arriba"></div>
 
-                <div >
-                    <div >
+                <div class="container_item_historia">
+                    <div class="container">
                         <h4>Primer partido (1905)</h4>
                     </div>
-                    <div >
-                        <img src="./images/historia/primer_partido.jpg" width={100} alt="Fundadores de Boca Juniors" />
+                    <div class="container_item_historia_img">
+                        <img src="./images/historia/primer_partido.jpg" class="img-fluid img-fluid-historia" alt="Fundadores de Boca Juniors" />
                     </div>
-                    <div>
+                    <div className="container_item_historia_p">
                         <p>El primer partido que disputó Boca, fue el 21 de abril de 1905; un amistoso contra el club
                             Mariano Moreno utilizando la indumentaria blanca con tiras negras. El partido se jugó en la
                             Dársena Sur y Boca ganó 4:0, con dos goles de Juan Farenga, uno de su hermano José Farenga y
